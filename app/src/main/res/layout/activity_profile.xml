@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_color">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gear"
+            android:layout_alignParentRight="true"
+            android:padding="3dp"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/Man_Profile_img"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/man" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Komal Bamne "
+            android:fontFamily="serif"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Man_Profile_img"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/img_email"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/email" />
+
+                <TextView
+                    android:id="@+id/tv_mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="komal2001@gmail.com"
+                    android:textSize="24sp"
+                    android:layout_marginTop="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/img_email"
+                    android:layout_marginLeft="60dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/img_phone"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/tv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91-1234-567-899"
+                    android:textSize="28sp"
+                    android:layout_marginTop="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/img_phone"
+                    android:layout_marginLeft="60dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/img_flat"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/flat"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/tv_flat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A/203"
+                    android:textSize="28sp"
+                    android:layout_marginTop="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/img_flat"
+                    android:layout_marginLeft="60dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/img_twitter"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/twitter"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/tv_twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_toRightOf="@+id/img_twitter"
+                    android:text="komal2001@twitter"
+                    android:textColor="@color/black"
+                    android:textSize="28sp" />
+
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/img_parkedcar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/parkedcar" />
+
+                <TextView
+                    android:id="@+id/tv_parkedcar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A/08/203"
+                    android:textSize="28sp"
+                    android:layout_marginTop="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/img_parkedcar"
+                    android:layout_marginLeft="60dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/img_car"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/car"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/tv_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MH-05-AT-1234"
+                    android:textSize="28sp"
+                    android:layout_marginTop="10sp"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/img_car"
+                    android:layout_marginLeft="60dp"
+                    />
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>
